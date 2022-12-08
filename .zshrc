@@ -5,3 +5,4 @@ export PROMPT="%F{cyan}[%n@%m] %F{white}%~"$'\n'"$ "
 
 #アスキーアート表示
 figlet -f standard Keep going ! !
+figlet -f standard Keep going ! !
