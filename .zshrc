@@ -17,8 +17,8 @@ GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUPSTREAM=auto
 
 
-setopt PROMPT_SUBST ; export PS1="%F{cyan}[%n@%m] %F{white}%~%B%F{red}$(__git_ps1 ' (%s)')%b%f
-$ "
+setopt PROMPT_SUBST ; export PS1='%F{cyan}[%n@%m] %F{white}%~%B%F{red}$(__git_ps1 " (%s)")%b%f
+$ '
 
 #アスキーアート表示
 figlet -f standard Keep going ! !
