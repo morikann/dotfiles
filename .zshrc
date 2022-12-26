@@ -1,4 +1,5 @@
 # 環境変数の設定
+export PATH=/usr/local/Homebrew/bin:$PATH
 export PATH="${HOMEBREW_PREFIX}/opt/openssl/bin:$PATH"
 export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 export PATH=$PATH:$HOME/fvm/default/bin
