@@ -4,8 +4,10 @@ export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 export PATH=$HOME/fvm/default/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 
+
 # エイリアスの設定
 alias lg='lazygit'
+alias path="echo $PATH | tr ':' '\n'"
 
 # git-promptの読み込み
 source ~/dotfiles/git/git-prompt.sh
