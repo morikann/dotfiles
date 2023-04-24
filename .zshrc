@@ -7,7 +7,9 @@ export PATH=$PATH:/usr/local/go/bin
 
 # エイリアスの設定
 alias lg='lazygit'
-alias path="echo $PATH | tr ':' '\n'"
+alias path="echo $PATH | tr ':' '\n'" # pathを見やすく表示
+alias ll='ls -l' # 現在のディレクトリ内の一覧+権限も表示
+
 
 # git-promptの読み込み
 source ~/dotfiles/git/git-prompt.sh
