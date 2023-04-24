@@ -4,7 +4,6 @@ export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 export PATH=$HOME/fvm/default/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
 
-
 # エイリアスの設定
 alias lg='lazygit'
 alias path="echo $PATH | tr ':' '\n'" # pathを見やすく表示
@@ -32,3 +31,7 @@ $ '
 #アスキーアート表示
 figlet -f standard Keep going ! !
 figlet -f standard Keep going ! !
+
+# ここでflutterコマンドのpathが/Users/ka_mori/.asdf/shims/flutterに設定されている。
+# fvmでバージョン管理したい場合は、ここを削除する必要がある。
+. /usr/local/opt/asdf/libexec/asdf.sh
