@@ -1,4 +1,4 @@
-# dotfiles
+## dotfiles
 
 dotfilesを管理するリポジトリ。  
 **一貫した環境を素早く提供し、効率化を図る**。
