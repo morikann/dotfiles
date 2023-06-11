@@ -10,6 +10,13 @@ alias lg='lazygit'
 alias path="echo $PATH | tr ':' '\n'" # pathを見やすく表示
 alias ll='ls -l' # 現在のディレクトリ内の一覧+権限も表示
 
+# flutter周りのalias
+alias ff='fvm flutter'
+alias ffv='fvm flutter --version'
+alias ffp='fvm flutter pub'
+alias ffpg='fvm flutter pub get'
+alias ffprbw='fvm flutter pub run build_runner watch --delete-conflicting-outputs'
+alias ffprbb='fvm flutter pub run build_runner build --delete-conflicting-outputs'
 
 # git-promptの読み込み
 source ~/dotfiles/git/git-prompt.sh
