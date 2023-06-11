@@ -3,6 +3,7 @@ export PATH=$PATH:/usr/local/Homebrew/bin
 export PATH="$PATH:$HOME/Library/Python/3.8/bin"
 export PATH=$HOME/fvm/default/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
 # エイリアスの設定
 alias lg='lazygit'
