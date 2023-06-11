@@ -36,3 +36,6 @@ figlet -f standard Keep going ! !
 # ここでflutterコマンドのpathが/Users/ka_mori/.asdf/shims/flutterに設定されている。
 # fvmでバージョン管理したい場合は、ここを削除する必要がある。
 . /usr/local/opt/asdf/libexec/asdf.sh
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
